@@ -1,5 +1,12 @@
 ### Microsoft AI Business School
 Microsoft AI Business School はビジネスリーダーが組織において AI をリードできるようにするための学習シリーズです。
+
+[<img src="./images/aibs.png" title="aibs" width="500">](https://www.microsoft.com/ja-JP/ai/ai-business-school)
+
+:point_right: [Microsoft AI Business School へアクセス！](https://www.microsoft.com/ja-JP/ai/ai-business-school)
+
+--- 
+
 #### 戦略
 
 AI を企業に浸透されるために全社的な AI 戦略の策定が必要です。さまざまな業界・業種での AI のケーススタディについて学びます。

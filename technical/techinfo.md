@@ -16,6 +16,6 @@
 
 
 
-## Microsoft 全般
+## Microsoft Technology
 * [Machine Learning Collection](https://github.com/microsoft/machine-learning-collection/) - Microsoft グループにおける AI テクノロジーのコレクション
 - [Microsoft Research Webinar](https://www.microsoft.com/en-us/research/webinar/) - Microsoft Research の研究内容などをお話する Webiner シリーズ

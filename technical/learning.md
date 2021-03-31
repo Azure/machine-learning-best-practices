@@ -21,3 +21,12 @@
 #### コミュニティ
 
 - [Deep Learning Lab](https://dllab.connpass.com/) - 日本マイクロソフトが幹事で運営している機械学習の社会実装を目指したコミュニティ。過去のイベント資料・動画が閲覧可能です。
+
+
+#### その他
+
+#### Getting Start with Python
+Python チュートリアル動画
+- [Python for beginners](https://aka.ms/pythonbeginnerseries)
+- [More Python for beginners](https://aka.ms/morepython)
+- [Even more Python for beginners](https://aka.ms/evenmorepython)
