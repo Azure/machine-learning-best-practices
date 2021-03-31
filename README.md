@@ -1,33 +1,53 @@
-# Project
+<div align="center">
+<img src="./images/head.png" title="header" width="400">
+</div>
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+<h4 align="center">機械学習プロジェクトを進めるためのガイドブック</h4>
 
-As the maintainer of this project, please make a few updates:
+<h5 align="center">2021/04/01 : $\beta$ Version</h5>
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
 
-## Contributing
+---
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+### What it is
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+Machine Learng Best Practices は Azure Machine Learning を中心とした機械学習プロジェクトを進める際のガイドブックです。
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-## Trademarks
+### Table of Content
+
+#### Business
+
+- [ :school: Microsoft AI Business School](/business/school.md)
+- [ :briefcase: 事例](/business/usecase.md)
+
+#### Technical
+
+- [ :memo: Design Principle](technical/machine-learning-design-principle.md)
+- [ :white_check_mark: WAF Assessment](technical/assessment-waf.md)
+- [ :wrench: アーキテクチャ](technical/architecture.md)
+- [ :pencil: サンプル実装](technical/sample.md)
+- [ :bulb: Tips](technical/tips.md)
+- [ :information_desk_person: サポート](technical/support)
+- [ :cloud: 技術情報](technical/techinfo.md)
+- [ :pencil2: ラーニング](technical/learning.md)
+
+---
+### Thanks
+Thanks my colleagues and our customers for contirbuting to this repository ! 
+
+### Contributing
+
+We are welcome your contribution from customers and internal microsoft employees. Please see [CONTRIBUTING](CONTRIBUTING.md)
+
+
+### Trademarks
 
 This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
 trademarks or logos is subject to and must follow 
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
+
+
+
