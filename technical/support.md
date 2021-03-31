@@ -15,7 +15,9 @@
 
 - **Azure サポート窓口への問合せ** - Azure Portal にアクセスしてサポートリクエストを送信してください。詳細は「[Azure サポートプランに関する FQA](https://azure.microsoft.com/ja-jp/support/faq/)」を参照ください。
 
-3. Azure サポート窓口への問合せ - Azure Portal にアクセスしてサポートリクエストを送信してください。詳細は「[Azure サポートプランに関する FQA](https://azure.microsoft.com/ja-jp/support/faq/)」を参照ください。
+- **Azure サポート窓口への問合せ**  
+Azure Portal にアクセスしてサポートリクエストを送信してください。詳細は「[Azure サポートプランに関する FQA](https://azure.microsoft.com/ja-jp/support/faq/)」を参照ください。
+
 
 
 #### Feedback to Microsoft 
