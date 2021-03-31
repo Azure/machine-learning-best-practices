@@ -18,7 +18,7 @@
 ||地震層相画像のセグメンテーション| [Deep Seismic](https://github.com/microsoft/seismic-deeplearning)|
 ||姿勢推定| [Computer Vision Receips](https://github.com/microsoft/computervision-recipes)|
 |Personalize        |商品のレコメンデーション|[Azure Synapse Solution Accelerator Retail Recommender](https://github.com/microsoft/Azure-Synapse-Retail-Recommender-Solution-Accelerator)|
-||協調フィルタリング、コンテンツベースフィルタリング、ハイブリッド| [Microsoft Recommenders](https://github.com/microsoft/computervision-recipes) |
+||協調フィルタリング、コンテンツベースフィルタリング、ハイブリッド| [Microsoft Recommenders](https://github.com/microsoft/computervision-recipes)([日本語訳](https://github.com/c-nova/recommenders)) |
 |Predictive Maintenance     |設備故障 (設備耐用年数) の予測     |[DeepLearning-Workshop](https://github.com/konabuta/DeepLearning-Workshop/blob/ff71b9a630fc1691f10bfba420d76ee0b90fa3de/Sample/Keras/Keras-LSTM-PredictiveMaintenance-datastore-Hyperdrive.ipynb)         |
 |Autonomous System  |ビル空調の運転最適化         |[bonsai-simulink](https://github.com/microsoft/bonsai-simulink/tree/main/samples/building_energy_management)         |
 ||化学プラントにおける製造工程最適化      |[bonsai-simulink](https://github.com/microsoft/bonsai-simulink/tree/main/samples/building_energy_management)         |

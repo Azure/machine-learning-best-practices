@@ -1,7 +1,7 @@
 
 - Business
 
-    - [ :school: Microsoft AI Business School](/business/school.md)
+    - [ :school: AI Business School](/business/school.md)
     - [ :briefcase: 事例](/business/usecase.md)
 
 - Technical
