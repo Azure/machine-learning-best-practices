@@ -72,6 +72,7 @@
 ### Capacity & Service Availability
 -  実験環境を利用する需要や稼働率が上限に達するほどに高くなることはありますか？
     - 処理負荷が一定でなくバラ付きがある場合は Azure Machine Learning の Compute Cluster を利用することで、リソース不足に陥ることなくジョブを実行することができます。予めクォータを確保しておき、最大ノード数が最大負荷に耐えうるように設定しておく必要があります。
+
 ### Application Platform Availability
 -  推論環境は高可用性を考慮した設定になっていますか？
     - Azure Kubernetes Service にデプロイすることで Kubernetes の高可用性の恩恵を享受できます。また、Azure Machine Learning Pipeline でバッチ推論を行う場合においても、Azure Data Factory や Synapse Pipeline を利用すれば Fail しても再試行することができます。
@@ -172,7 +173,8 @@
 -  学習環境の将来定な需要の変化を把握・予測していますか？
     - Azure ML Compute Instances / Compute Cluster を稼働させるためのクォータを確保することができます。
 
-### Application Platform Availability
+
+### Application Platform Availability  
 -  推論環境は高可用性の構成になっていますか？
     - 高可用性が求められるシナリオで、API での推論環境を構築される場合は、Azure Kubernetes Service の利用を推奨します。詳細は、Azure Kubernetes Service のドキュメント 「[Azure Kubernetes Service (AKS) での事業継続とディザスター リカバリーに関するベスト プラクティス](https://docs.microsoft.com/ja-jp/azure/aks/operator-best-practices-multi-region)」と「[可用性ゾーンを使用する Azure Kubernetes Service (AKS) クラスターを作成する](https://docs.microsoft.com/ja-jp/azure/aks/availability-zones)」を参照ください。 Azure Machine Learning 経由で Azure Kubernetes Service のクラスターを作成した場合は、複数リージョンでの高可用性はサポートされません。
 
@@ -261,6 +263,7 @@
 -  CI/CD パイプラインにおいて資格情報、証明書、およびその他シークレットはセキュアに管理されていますか？
     - Azure Key Vaults のシークレット管理機能や、Azure DevOps や Github から提供されている Secret 機能などを利用し、極力コードに直接シークレット情報を記載しないようにします。
  
+
 ### Operational Model & DevOps
 -  CI/CD パイプラインに関与する人の役割の定義とアクセス許可の設定はできていますか？
     - 機械学習には様々な役割を担う人が参画します。それぞれの役割ごとのリソースに対するアクセス許可・不許可、実行許可・不許可の設定を正しく行っておく必要があります。
