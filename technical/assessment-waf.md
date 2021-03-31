@@ -27,16 +27,16 @@
 - [ ] 実験のメトリックを収集していますか？
 - [ ] Azure Machine Leanring のアップデートを定期的に確認していますか？
     - [Azure Machine Learning Release Notes](https//docs.microsoft.com/en-us/azure/machine-learning/azure-machine-learning-release-notes) を確認ください。
-    
-### Health Modeling & Monitoring
+
+
+### Health Modeling & Monitoring  
 - [ ] モデル学習の成功・失敗の通知をキャチしていますか？
     - Azure Machine Learning は Azure Event Grid を利用してイベントを Teams で通知するなど、様々なシステムに連携することができます。[Azure Machine Learning イベントに基づいてアプリケーション、プロセス、または CI/CD ワークフローをトリガーする (プレビュー)](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-use-event-grid) を参照ください。
 
 - [ ] モデルのデプロイの成功・失敗の通知をキャッチしていますか？
     - Azure Machine Learning は Azure Event Grid を利用してイベントを Teams で通知するなど、様々なシステムに連携することができます。[Azure Machine Learning イベントに基づいてアプリケーション、プロセス、または CI/CD ワークフローをトリガーする (プレビュー)](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-use-event-grid) を参照ください。
 
-
-### Security & Compliance
+### Security & Compliance  
 - [ ] 個人情報を扱うことや利用ユーザに大きな影響を与えるセンシティブなシナリオで AI を利用する場合、社内で審議するための明確なプロセスはあるか？
     - 例えば Microsoft では AETHER 委員会、Office of Responsible AI (ORA) など AI の倫理などの責任のある AI の方針や問題に対処するための仕組みがあります。[Microsoft AI Business School](https://www.microsoft.com/ja-JP/ai/ai-business-school) で Microsoft 取り組みについて学習いただき自社にて活用ください。
 
