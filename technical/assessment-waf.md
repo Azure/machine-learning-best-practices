@@ -184,13 +184,16 @@
 ### Scalability & Performance
 -  モデル学習は期待された時間内に完了しますか？
     - データサイズが大きかったり、機械学習アルゴリズムが複雑な場合には学習時間が長くなります。その場合は、サンプリングして学習データを減らしたり、Spark などの並列処理、GPU での処理などを検討ください。([Azure Machine Learning を使用したデータ処理の最適化](https//docs.microsoft.com/ja-JP/azure/machine-learning/concept-optimize-data-processings))
-    
+
+
 -  モデル推論は期待された時間内に完了しますか？
     - ストリーミングデータに対する推論などリアルタイム性が求められる推論は Web API、大量データに対する定期的な推論はバッチ推論の形態を採用します。
-    
+
+
 -  学習データの増加率は予測していますか？
     - データソースのサイズやモデル学習環境のスペックを決定するために、今後データサイズの増加率を評価しておく必要があります。
-     
+
+
 -  モデル学習環境の自動スケールは有効にしていますか？
     - Azure ML Compute Cluster はスケールアウト/ダウンが可能なクラスター環境です。最小ノード数と最大ノード数の設定可能です。定常的なワークロードでなく、求められるパフォーマンスが可変の場合は特に利用をお勧めします。Compute Cluster の詳細は、[Azure Machine Learning コンピューティング クラスターの作成
 ](https://docs.microsoft.com/ja-JP/azure/machine-learning/how-to-create-attach-compute-cluster?tabs=python#what-is-a-compute-cluster) をご参照ください。
@@ -233,8 +236,10 @@
     - Azure Machine Learning では Workspace のデータのダウンロードとアーカイブ・削除が行えます。[Machine Learning service のワークスペース データをエクスポートまたは削除する
 ](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-export-delete-data) をご参照ください。
 
+
 -  Azure Policty をセキュリティ、コンプライアンス、組織標準を適用するために使用していますか？
     - Azure Policy は Azure の各サービスがポリシーに準拠させることができます。Azure Machine Learning の Azure Policy の概要は [Azure Policy を使用した Azure Machine Learning の監査と管理](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-integrate-azure-policy) を参照ください。利用できる Python パッケージを限定したり (Preview)、Private Link の利用を強制することができます。([組み込み Policy 一覧](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-integrate-azure-policy))
+
 
 -  機械学習で利用しているオープンソースのフレームワークやライブラリを管理していますか？
     - フレームワークやライブラリに起因する脆弱性が問題なるケースがあります。Azure Security Center を用いて Azure Container Registry や Azure Kubernetes Service のスキャンを有効にすることを推奨します。
@@ -251,15 +256,16 @@
 ### Security & Compliance
 -  機密データを取り扱う場合、TEE や準同型暗号などの暗号化を利用していますか？
     - [Azure Confidential Computing](https://azure.microsoft.com/ja-jp/solutions/confidential-compute/) は Intel SGX を搭載しており、Enclave 内部でセキュアな計算処理を実行できます。また、[Microsoft SEAL](https://github.com/microsoft/SEAL) は Microsoft が開発している準同型暗号のライブラリで、このライブラリに対応した機械学習ライブラリを利用することで、データを暗号化したまま計算処置が実行できます。非常に高いセキュリティ要件の場合は利用を検討ください。
-    
+
+
 -  学習コードや推論コードで利用するパスワードなどのシークレットは Azure Key Vault に格納していますか？
     - シークレットをコードに直に記載すると安全ではありません。Azure Machine Learning のリソースにもある Azure Key Vault にシークレットを保存して、コードの中で呼び出すようにしてください。[Azure Machine Learning トレーニングの実行で認証資格情報シークレットを使用する
 ](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-use-secrets-in-runs) をご参照ください。
 
 ### Deployment & Testings
-
 -  CI パイプラインにおいてコードの脆弱性のチェックは行われていますか？
     - Github、Azure DevOps またはオープンソースのライブラリにコードの脆弱性をスキャンする機能があります。
+
 
 -  CI/CD パイプラインにおいて資格情報、証明書、およびその他シークレットはセキュアに管理されていますか？
     - Azure Key Vaults のシークレット管理機能や、Azure DevOps や Github から提供されている Secret 機能などを利用し、極力コードに直接シークレット情報を記載しないようにします。
@@ -268,6 +274,7 @@
 ### Operational Model & DevOps
 -  CI/CD パイプラインに関与する人の役割の定義とアクセス許可の設定はできていますか？  
     - 機械学習には様々な役割を担う人が参画します。それぞれの役割ごとのリソースに対するアクセス許可・不許可、実行許可・不許可の設定を正しく行っておく必要があります。
+
 
 ### Identity & Access Control
 -  機械学習に関与する人ごとに適切なロールが設定されていますか？  
