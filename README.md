@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./images/head2.png" title="header" width="400">
+<img src="./images/head.png" title="header" width="400">
 </div>
 
 <h4 align="center">機械学習プロジェクトを進めるためのガイドブック</h4>
