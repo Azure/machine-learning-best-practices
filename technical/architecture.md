@@ -31,7 +31,7 @@ Azure Kubernetes Services (AKS) 利用時の構成です。
 
 :construction:	under construction !
 
-※ 参考ドキュメント
+**参考ドキュメント**
 - [Azure Data Factro を使用したデータインジェスト](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-data-ingest-adf)
 - [Azure Synapse を使用したデータ準備](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-data-prep-synapse-spark-pool)
 - [データインジェクトパイプラインの DevOps](https://docs.microsoft.com/ja-JP/azure/machine-learning/how-to-cicd-data-ingestion)

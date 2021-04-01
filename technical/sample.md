@@ -18,7 +18,7 @@
 - [Demand Forecasting (Many Models) Solution Accelerator](https://github.com/microsoft/solution-accelerator-many-models) ([日本語訳](https://github.com/c-nova/solution-accelerator-many-models)) - 大量のモデル構築・推論の実装テンプレート
 
 
-### Recipes
+## Recipes
 - [Computer Vision](https://github.com/microsoft/computervision-recipes) - コンピュータービジョンのサンプル集
 
 - [Natural Language Processing](https://github.com/microsoft/nlp-recipes) - 自然言語処理 NLP のサンプル集
@@ -32,7 +32,7 @@
 
 <br>
 
-## ユースケース観点
+## Usecase
 
 
 |ユースケース         |ソリューション      |サンプルコード  |
@@ -51,7 +51,7 @@
 ||後方互換性を考慮した年収予測モデルの開発|[Backward Compatibility ML - Samples](https://github.com/microsoft/BackwardCompatibilityML/blob/dev/examples/compatibility-analysis-adult.ipynb)|
 ||患者のガン診断モデルと影響した変数の抽出|[InterpretML - Samples](https://github.com/interpretml/interpret-community/blob/master/notebooks/explain-binary-classification-local.ipynb)|
 |Text Analytics     |Livedoor ニュース記事の分類|[AzureML-NLP (日本語)](https://github.com/konabuta/AzureML-NLP)         |
-|Credit Analytics   |住宅ローンの与信モデル構築と反実仮想サンプルの生成 | :runner: _under construction_ ([DiCE](https://github.com/interpretml/DiCE)をベースに作成中)         |
+|Credit Analytics   |住宅ローンの与信モデル構築と反実仮想サンプルの生成 | :runner: under construction ([DiCE](https://github.com/interpretml/DiCE)をベースに作成中)         |
 |Demand Forecasting |時系列予測 (統計手法、機械学習、深層学習)|[Forecasting Best Practices](https://github.com/microsoft/forecasting)|
 ||各商品ブランドの店舗ごとの大量モデル開発と推論| [Many Models Solution Accelerator](https://github.com/microsoft/solution-accelerator-many-models)|
 |Anomaly Detection  |ビデオの異常検知 (教師あり、教師なし)         | [MLOps_VideoAnomalyDetection](https://github.com/microsoft/MLOps_VideoAnomalyDetection)        |
@@ -74,6 +74,6 @@
 <br>
 
 ## その他
-- [Microsoft Japan Code Labs](https://microsoft.github.io/code-labs-jp/) - ハンズオンコンテンツ (日本マイクロソフトが収集)。AI や Analytics フィルタリングできます。
+- [Microsoft Japan Code Labs](https://microsoft.github.io/code-labs-jp/) - ハンズオンコンテンツ (日本マイクロソフトが収集)。AI や Analytics のカテゴリでフィルタリングできます。
 - [Azure Samples (GitHub)](https://github.com/Azure-Samples) - Azure のサンプルコード集
 
