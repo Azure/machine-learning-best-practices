@@ -3,4 +3,4 @@ Azure Machine Learning を利用する際の基本的なデザイン原則につ
 
 :runner: v1.0 coming soon!
 
-[<img src="./images/design.png" title="design" width="300">](https://speakerdeck.com/konabuta/azure-machine-learning-design-principle-draft)
+[<img src="./images/design.png" title="design" width="300">](documents/AzureML-Design-20210401.pdf)
