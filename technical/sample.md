@@ -6,9 +6,8 @@
 
 - [Azure Machine Learning Gallery](https://github.com/Azure/AzureMachineLearningGallery) - Azure ML Designer のカスタムモジュールを作成するサンプルコード
 
-- [Auzre ML 2.0 Developer Experience](https://github.com/Azure/azureml-v2-preview) - Azure ML 2.0 API/CLI/SDK (private preview)
+- [Azure ML 2.0 Developer Experience](https://github.com/Azure/azureml-v2-preview) - Azure ML 2.0 API/CLI/SDK (private preview)
 
-- [Factory AI Vision](https://github.com/Azure-Samples/azure-intelligent-edge-patterns/tree/master/factory-ai-vision#custom-vision--azure-iot-edge-for-factory-ai) - 工場における Edge AI の実装テンプレート
 
 ## Solution Accelerators
 - [Azure Synapse Solution Acceleartor Retail Recommender](https://github.com/microsoft/Azure-Synapse-Retail-Recommender-Solution-Accelerator)
@@ -39,7 +38,7 @@
 |------------------|------------------|---------|
 | Computer Vision   | 医療画像の分類、セグメンテーション | [Project InnerEye](https://github.com/microsoft/InnerEye-DeepLearning)|
 ||地震層相画像のセグメンテーション| [Deep Seismic](https://github.com/microsoft/seismic-deeplearning)|
-||姿勢推定| [Computer Vision Receips](https://github.com/microsoft/computervision-recipes)|
+||行動認識、人数カウンティング、トラッキング| [Computer Vision Receips](https://github.com/microsoft/computervision-recipes)|
 |Personalize        |商品のレコメンデーション|[Azure Synapse Solution Accelerator Retail Recommender](https://github.com/microsoft/Azure-Synapse-Retail-Recommender-Solution-Accelerator)|
 ||協調フィルタリング、コンテンツベースフィルタリング、ハイブリッド| [Microsoft Recommenders](https://github.com/microsoft/computervision-recipes)([日本語訳](https://github.com/c-nova/recommenders)) |
 |Predictive Maintenance     |設備故障 (設備耐用年数) の予測     |[DeepLearning-Workshop](https://github.com/konabuta/DeepLearning-Workshop/blob/ff71b9a630fc1691f10bfba420d76ee0b90fa3de/Sample/Keras/Keras-LSTM-PredictiveMaintenance-datastore-Hyperdrive.ipynb)         |
@@ -63,14 +62,18 @@
 
 ## Tutorial & Workshop
 
-- [azureml-hybrid](hhttps://github.com/konabuta/azureml-hybrid) - Azure Machine Learning をローカル環境とクラウド環境での利用ハンズオンコンテンツ
+- [Hybrid machine learning](hhttps://github.com/konabuta/azureml-hybrid) - Azure Machine Learning をローカル環境とクラウド環境での利用ハンズオンコンテンツ
 
-- [azureml-mlops](https://github.com/konabuta/azureml-mlops) - MLOps ハンズオンコンテンツ (Github Actions & Azure Pipelines 連携)
+- [MLOps on Azure Machine Learning](https://github.com/konabuta/azureml-mlops) - MLOps ハンズオンコンテンツ (Github Actions & Azure Pipelines 連携)
 
-- [AutoML-Pipeline](https://github.com/konabuta/AutoML-Pipeline) - AutoML パイプラインのエンドツーエンドのサンプルコード
+- [AutoML Pipeline on Azure Machine Learning](https://github.com/konabuta/AutoML-Pipeline) -  自動機械学習 AutoML パイプラインのエンドツーエンド (学習 ~ 推論) のサンプルコード
+
+- [Azure Machine Learning Bootcamp
+](https://github.com/konabuta/AzureML-Bootcamp) - Azure Machine Learning Bootcamp (lastupdated : 2020年4月)
 
 - [Nvidia Rapids on Azure ML](https://github.com/rapidsai/notebooks-contrib/tree/branch-0.12/conference_notebooks/KDD_2019) - Azure Machine Learning 上で NVidia Rapids を利用するためのチュートリアル。詳細ブログは[こちら](https://medium.com/rapids-ai/rapids-on-microsoft-azure-machine-learning-b51d5d5fde2b)。
 
+- [Azure Machine Learningを使用したPyTorchモデルの分散深層学習](https://github.com/shohei1029/azureml_distributed-pytorch) - DistributedDataParallel による分散学習から API 推論まで
 <br>
 
 ## その他

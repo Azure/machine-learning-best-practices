@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./images/head.png" title="header" width="400">
+<img src="./images/head2.png" title="header" width="400">
 </div>
 
 <h4 align="center">機械学習プロジェクトを進めるためのガイドブック</h4>
@@ -34,7 +34,7 @@ Machine Learng Best Practices は Azure Machine Learning を中心とした機�
 
 ---
 ### Thanks
-Thanks my colleagues and our customers for contirbuting to this repository ! 
+Thanks my colleagues (Solution Architect and Specialist) and our customers/partners for contirbuting to this repository ! 
 
 ### Contributing
 
