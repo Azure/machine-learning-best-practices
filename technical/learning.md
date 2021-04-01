@@ -10,7 +10,7 @@
     - ロール毎の認定資格 : [Data Analyst](https://docs.microsoft.com/ja-JP/learn/certifications/data-analyst-associate/) | [Data Scientist](https://docs.microsoft.com/ja-jp/learn/certifications/roles/data-scientist) | [AI Engineer](https://docs.microsoft.com/ja-jp/learn/certifications/roles/ai-engineer) 
 
 
-- **[Microsoft Cloud workshop](https://microsoftcloudworkshop.com/) - ハンズオントレーニングのコンテンツ**
+- **[Microsoft Cloud Workshop](https://microsoftcloudworkshop.com/) - ハンズオントレーニングのコンテンツ**
     - [Azure Synapse Analytics and AI](https://github.com/microsoft/MCW-Azure-Synapse-Analytics-and-AI)
     - [Cognitive Services and Deep Learning](https://github.com/Microsoft/MCW-Cognitive-Services-and-Deep-Learning)
     - [Machine Learning](https://github.com/microsoft/MCW-Machine-Learning)
