@@ -34,7 +34,7 @@ Machine Learng Best Practices は Azure Machine Learning を中心とした機�
 
 ---
 ### Thanks
-Thanks my colleagues and our customers for contirbuting to this repository ! 
+Thanks my colleagues (Solution Architect and Specialist) and our customers/partners for contirbuting to this repository ! 
 
 ### Contributing
 

@@ -5,9 +5,9 @@
 
 
 ## Azure Machine Learning アーキテクチャ
-Azure Machine Learning は他の Azure サービスと一緒に構成されます。
 
 **Workspace**
+Azure Machine Learning は他の Azure サービスと一緒に構成されます。
 
 <img src='https://docs.microsoft.com/en-us/azure/machine-learning/media/concept-azure-machine-learning-architecture/architecture.svg' width=500 />
 
@@ -15,13 +15,16 @@ Azure Machine Learning は他の Azure サービスと一緒に構成されま�
 
 <br>
 
-**仮想ネットワーク構成(学習)**
-特定の仮想ネットワークからのみ Azure Machine Learning Workspace へのアクセスさせたい場合は、**Private Link & Endpoint** の構築が必須です。
+**仮想ネットワーク構成(学習)**  
+特定の仮想ネットワークからのみ Azure Machine Learning Workspace へのアクセスさせたい場合は、**Private Link & Endpoint** の構築が必須です。<br>
 
 <img src='https://docs.microsoft.com/ja-jp/azure/machine-learning/media/how-to-network-security-overview/secure-training-environment.png' width=500>
 
-**仮想ネットワーク構成(推論)**
-Azure Kubernetes Services (AKS) 利用時の構成です。
+<br>
+
+**仮想ネットワーク構成(推論)**  
+Azure Kubernetes Services (AKS) 利用時の構成です。<br>
+
 <img src='https://docs.microsoft.com/ja-jp/azure/machine-learning/media/how-to-network-security-overview/secure-inferencing-environment.png' width=500>
 
 <br><br>
