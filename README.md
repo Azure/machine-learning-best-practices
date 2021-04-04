@@ -11,7 +11,7 @@
 
 ### What it is
 
-Machine Learng Best Practices は Azure Machine Learning を中心とした機械学習プロジェクトを進める際のガイドブックです。
+**Machine Learng Practices and Tips** は Azure Machine Learning を中心とした機械学習プロジェクトを進める際のガイドブックです。
 
 
 ### Table of Content
@@ -32,6 +32,17 @@ Machine Learng Best Practices は Azure Machine Learning を中心とした機�
 - [ :cloud: 技術情報](technical/techinfo.md)
 - [ :pencil2: ラーニング](technical/learning.md)
 
+#### Roadmap
+
+- Cheat Sheet
+    - Datastore & Dataset
+    - Pipeline
+    - Python SDK 
+- Project Document of Data Hack
+
+#### History
+
+- April 1st, 2021  : **$\beta$ Version Released**
 ---
 ### Thanks
 Thanks my colleagues (Solution Architect and Specialist) and our customers/partners for contirbuting to this repository ! 

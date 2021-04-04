@@ -62,18 +62,18 @@
 
 ## Tutorial & Workshop
 
-- [Hybrid machine learning](hhttps://github.com/konabuta/azureml-hybrid) - Azure Machine Learning をローカル環境とクラウド環境での利用ハンズオンコンテンツ
+- [Hybrid machine learning](hhttps://github.com/konabuta/azureml-hybrid) - Azure Machine Learning をローカル環境とクラウド環境での学習・推論ハンズオン
 
-- [MLOps on Azure Machine Learning](https://github.com/konabuta/azureml-mlops) - MLOps ハンズオンコンテンツ (Github Actions & Azure Pipelines 連携)
+- [MLOps on Azure Machine Learning](https://github.com/konabuta/azureml-mlops) - `MLOps` ハンズオンコンテンツ (Github Actions & Azure Pipelines 連携)
 
-- [AutoML Pipeline on Azure Machine Learning](https://github.com/konabuta/AutoML-Pipeline) -  自動機械学習 AutoML パイプラインのエンドツーエンド (学習 ~ 推論) のサンプルコード
+- [AutoML Pipeline on Azure Machine Learning](https://github.com/konabuta/AutoML-Pipeline) -  `自動機械学習 AutoML パイプライン`のエンドツーエンド (学習 ~ 推論) のサンプルコード
 
 - [Azure Machine Learning Bootcamp
-](https://github.com/konabuta/AzureML-Bootcamp) - Azure Machine Learning Bootcamp (lastupdated : 2020年4月)
+](https://github.com/konabuta/AzureML-Bootcamp) - Azure Machine Learning Bootcamp (2020年4月 実施)
 
-- [Nvidia Rapids on Azure ML](https://github.com/rapidsai/notebooks-contrib/tree/branch-0.12/conference_notebooks/KDD_2019) - Azure Machine Learning 上で NVidia Rapids を利用するためのチュートリアル。詳細ブログは[こちら](https://medium.com/rapids-ai/rapids-on-microsoft-azure-machine-learning-b51d5d5fde2b)。
+- [Nvidia Rapids on Azure ML](https://github.com/rapidsai/notebooks-contrib/tree/branch-0.12/conference_notebooks/KDD_2019) - Azure Machine Learning 上で `Nvidia Rapids` を利用するためのチュートリアル。詳細ブログは[こちら](https://medium.com/rapids-ai/rapids-on-microsoft-azure-machine-learning-b51d5d5fde2b)。
 
-- [Azure Machine Learningを使用したPyTorchモデルの分散深層学習](https://github.com/shohei1029/azureml_distributed-pytorch) - DistributedDataParallel による分散学習から API 推論まで
+- [Azure Machine Learningを使用した PyTorch モデルの分散深層学習](https://github.com/shohei1029/azureml_distributed-pytorch) - `DistributedDataParallel` による分散学習から API 推論まで
 <br>
 
 ## その他
