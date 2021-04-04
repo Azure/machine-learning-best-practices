@@ -1,7 +1,7 @@
 ## Azure 全体アーキテクチャ
-* [Azure Architecture Center](https://docs.microsoft.com/ja-JP/azure/architecture/data-guide/big-data/ai-overview) - ユースケース毎のリファレンスアーキテクチャ集
-    - [AI + 機械学習](https://docs.microsoft.com/ja-jp/azure/architecture/data-guide/big-data/ai-overview) - リファレンスアーキテクチャ、ソリューションがを公開
-        - [Azure Machine Learning を利用しているアーキテクチャ例](https://docs.microsoft.com/ja-jp/azure/architecture/browse/?expanded=azure&products=azure-machine-learning)
+* **[Azure アーキテクチャセンター](https://docs.microsoft.com/ja-JP/azure/architecture/data-guide/big-data/ai-overview) : ユースケース毎のリファレンスアーキテクチャ集**  
+    :point_right: [AI + 機械学習 におけるリファレンスアーキテクチャ、ソリューションアイデア](https://docs.microsoft.com/ja-jp/azure/architecture/data-guide/big-data/ai-overview)  
+    :point_right: [Azure Machine Learning を利用しているアーキテクチャの検索サイト](https://docs.microsoft.com/ja-jp/azure/architecture/browse/?expanded=azure&products=azure-machine-learning)
 
 
 ## Azure Machine Learning アーキテクチャ
