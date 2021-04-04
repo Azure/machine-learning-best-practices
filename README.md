@@ -14,7 +14,7 @@
 **Machine Learng Practices and Tips** は Azure Machine Learning を中心とした機械学習プロジェクトを進める際のガイドブックです。
 
 
-### Table of Content
+### Table of Contents
 
 #### Business
 
