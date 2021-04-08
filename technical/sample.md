@@ -10,9 +10,9 @@
 
 
 ## Solution Accelerators
-- [Azure Synapse Solution Acceleartor Retail Recommender](https://github.com/microsoft/Azure-Synapse-Retail-Recommender-Solution-Accelerator)
+- [Azure Synapse Solution Acceleartor Retail Recommender](https://github.com/microsoft/Azure-Synapse-Retail-Recommender-Solution-Accelerator) - Retail におけるレコメンデーションシステムの実装テンプレート
 
-- [Financial Analytics Customer Revenue Growth Factor Solution Accelerator](https://github.com/microsoft/Azure-Synapse-Solution-Accelerator-Financial-Analytics-Customer-Revenue-Growth-Factor)
+- [Financial Analytics Customer Revenue Growth Factor Solution Accelerator](https://github.com/microsoft/Azure-Synapse-Solution-Accelerator-Financial-Analytics-Customer-Revenue-Growth-Factor) - Revenue に寄与する要因を特定する顧客分析システムの実装テンプレート
 
 - [Demand Forecasting (Many Models) Solution Accelerator](https://github.com/microsoft/solution-accelerator-many-models) ([日本語訳](https://github.com/c-nova/solution-accelerator-many-models)) - 大量のモデル構築・推論の実装テンプレート
 
@@ -74,6 +74,12 @@
 - [Nvidia Rapids on Azure ML](https://github.com/rapidsai/notebooks-contrib/tree/branch-0.12/conference_notebooks/KDD_2019) - Azure Machine Learning 上で `Nvidia Rapids` を利用するためのチュートリアル。詳細ブログは[こちら](https://medium.com/rapids-ai/rapids-on-microsoft-azure-machine-learning-b51d5d5fde2b)。
 
 - [Azure Machine Learningを使用した PyTorch モデルの分散深層学習](https://github.com/shohei1029/azureml_distributed-pytorch) - `DistributedDataParallel` による分散学習から API 推論まで
+
+- [PyTorch Lightning on Azure Machine Learning](https://github.com/ShuntaIto/azureml-pl-sample) - `PyTorch Lightning` を用いたモデル学習と推論のサンプルコード。`日本語 BERT` の分散学習の実装など。
+
+- [Responsible AI Workshop](https://github.com/konabuta/responsible-ai) - モデル解釈・説明性のテクノジーについてのワークショップコンテンツ。`Explainable Boosting Machine` と `SHAP` の実装。
+
+
 <br>
 
 ## その他
