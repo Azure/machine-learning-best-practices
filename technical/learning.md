@@ -32,6 +32,10 @@
 
 ## その他
 
+#### Developer 向けデータサイエンス入門
+- [Dev Intro to Data Science](https://channel9.msdn.com/Series/Dev-Intro-to-Data-Science)
+    - 機械学習のコンセプト、開発環境、Azure ML、デプロイまでをエンドツーエンドで学習できる 28 個の入門ビデオ (日本語字幕あり)
+
 ##### Getting Start with Python : Python 初学者向けチュートリアル
 - [Python for beginners](https://aka.ms/pythonbeginnerseries)
 - [More Python for beginners](https://aka.ms/morepython)
