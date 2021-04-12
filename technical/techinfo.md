@@ -1,5 +1,7 @@
 # :cloud: 技術情報
-## Azure サービス
+## ドキュメント
+* [Microsoft Docs の網羅検索](https://docs.microsoft.com/ja-jp/search/)
+    
 * Azure Machine Learning
     - [ホームページ](https://azure.microsoft.com/ja-jp/services/machine-learning/ )
     - [製品ドキュメント](https://docs.microsoft.com/ja-JP/azure/machine-learning/)
