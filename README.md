@@ -58,6 +58,8 @@ Thanks my colleagues (Solution Architect and Specialist) and our customers/partn
 
 We are welcome your contribution from customers and internal microsoft employees. Please see [CONTRIBUTING](CONTRIBUTING.md)
 
+※ 本サイトは [docisfy](https://docsify.js.org/#/) で稼働しています。
+※ Issue にて本サイトに対するご要望やコメントをお待ちしております。
 
 ### Trademarks
 
