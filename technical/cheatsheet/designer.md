@@ -1,4 +1,4 @@
-## Designer
+### Designer
 
 Azure Machine Learning Designer の日本語チートシート
 

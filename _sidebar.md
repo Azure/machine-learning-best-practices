@@ -7,8 +7,9 @@
     - [ :information_desk_person: サポート](technical/support)
     - [ :cloud: 技術情報](technical/techinfo.md)
     - [ :pencil2: ラーニング](technical/learning.md)
-    - [ :orange_book: チートシート](technical/cheat-sheet.md)
-    - 
+    -  :orange_book: チートシート
+        - [Designer](technical/cheatsheet/designer.md)
+
 - Business
 
     - [ :school: AI Business School](/business/school.md)
