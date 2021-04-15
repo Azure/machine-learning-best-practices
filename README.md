@@ -16,10 +16,7 @@
 
 ### Table of Contents
 
-#### Business
 
-- [ :school: Microsoft AI Business School](/business/school.md)
-- [ :briefcase: 事例](/business/usecase.md)
 
 #### Technical
 
@@ -31,6 +28,11 @@
 - [ :information_desk_person: サポート](technical/support)
 - [ :cloud: 技術情報](technical/techinfo.md)
 - [ :pencil2: ラーニング](technical/learning.md)
+
+#### Business
+
+- [ :school: Microsoft AI Business School](/business/school.md)
+- [ :briefcase: 事例](/business/usecase.md)
 
 #### Roadmap
 

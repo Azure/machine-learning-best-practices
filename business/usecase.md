@@ -22,13 +22,16 @@
 
 
 ## Inside Microsoft
+Microsoft における Azure Macine Learning 活用事例
+
 
 |Column1  |Column2  |
-|---------|---------|
-|Row1     |[Powered by Azure Machine Learning service: Editor makes your writing shine](https://channel9.msdn.com/Shows/AI-Show/Powered-by-Azure-Machine-Learning-service-Editor-makes-your-writing-shine)|
-|Row2     |[Powered by Azure Machine Learning service: Optimize Bing Ad campaigns](https://channel9.msdn.com/Shows/AI-Show/Powered-by-Azure-Machine-Learning-service-Optimize-Bing-Ad-campaigns)|
-|Row3     |[Powered by Azure Machine Learning service: Create stunning presentations with PowerPoint Designer](https://channel9.msdn.com/Shows/AI-Show/Powered-by-Azure-Machine-Learning-service-Create-stunning-presentations-with-PowerPoint-Designer)|
-|Row4     |[Powered by Azure Machine Learning service: Outlook suggested replies makes responding to email easier](https://channel9.msdn.com/Shows/AI-Show/Outlook-suggested-replies-makes-responding-to-email-easier)|
+|-------------------|---------|
+|<image src="https://sec.ch9.ms/ch9/dc11/7d1317e8-2bb8-454f-9991-85d03ccedc11/AIShow0365WordEditor_512.jpg" width=300/>|[Powered by Azure Machine Learning service: Editor makes your writing shine](https://channel9.msdn.com/Shows/AI-Show/Powered-by-Azure-Machine-Learning-service-Editor-makes-your-writing-shine)|
+|<image src="https://sec.ch9.ms/ch9/09c9/3f84896a-7e4d-4f5b-ab3b-917e587209c9/AiShowOptimizeBingAdCampaigns_512.jpg" width=300/>|[Powered by Azure Machine Learning service: Optimize Bing Ad campaigns](https://channel9.msdn.com/Shows/AI-Show/Powered-by-Azure-Machine-Learning-service-Optimize-Bing-Ad-campaigns)|
+|<image src="https://sec.ch9.ms/ch9/5289/ad7fb431-d153-4cd5-addd-ba8de7625289/AiShow_960.jpg" width=300/>|[Powered by Azure Machine Learning service: Create stunning presentations with PowerPoint Designer](https://channel9.msdn.com/Shows/AI-Show/Powered-by-Azure-Machine-Learning-service-Create-stunning-presentations-with-PowerPoint-Designer)|
+|<image src="https://sec.ch9.ms/ch9/33a8/2e03d39b-8096-4ca8-a925-fb84612533a8/AIShowSuggestedReplies_512.jpg" width=300/>|[Powered by Azure Machine Learning service: Outlook suggested replies makes responding to email easier](https://channel9.msdn.com/Shows/AI-Show/Outlook-suggested-replies-makes-responding-to-email-easier)|
+
 
 
 ## その他
