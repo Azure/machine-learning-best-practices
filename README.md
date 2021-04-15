@@ -16,10 +16,7 @@
 
 ### Table of Contents
 
-#### Business
 
-- [ :school: Microsoft AI Business School](/business/school.md)
-- [ :briefcase: 事例](/business/usecase.md)
 
 #### Technical
 
@@ -31,6 +28,11 @@
 - [ :information_desk_person: サポート](technical/support)
 - [ :cloud: 技術情報](technical/techinfo.md)
 - [ :pencil2: ラーニング](technical/learning.md)
+
+#### Business
+
+- [ :school: Microsoft AI Business School](/business/school.md)
+- [ :briefcase: 事例](/business/usecase.md)
 
 #### Roadmap
 
@@ -58,6 +60,8 @@ Thanks my colleagues (Solution Architect and Specialist) and our customers/partn
 
 We are welcome your contribution from customers and internal microsoft employees. Please see [CONTRIBUTING](CONTRIBUTING.md)
 
+※ 本サイトは [docisfy](https://docsify.js.org/#/) で稼働しています。
+※ Issue にて本サイトに対するご要望やコメントをお待ちしております。
 
 ### Trademarks
 
