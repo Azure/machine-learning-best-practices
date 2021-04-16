@@ -47,8 +47,7 @@
 
 #### History
 
-- April version 1.0, 2021  : **$\beta$ Version Released**
-
+- April version 1.0, 2021  : **v1.0 Version Released**
 
 
 
