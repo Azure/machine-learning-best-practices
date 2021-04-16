@@ -7,7 +7,7 @@
     - [ :information_desk_person: サポート](technical/support)
     - [ :cloud: 技術情報](technical/techinfo.md)
     - [ :pencil2: ラーニング](technical/learning.md)
-    -  :orange_book: cheat sheet
+    - [ :orange_book: cheat sheet](technical/cheatsheet/python-sdk.md)
         - [Designer](technical/cheatsheet/designer.md)
 
 - Business
