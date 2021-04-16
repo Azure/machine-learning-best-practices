@@ -25,9 +25,12 @@
 - [ :wrench: アーキテクチャ](technical/architecture.md)
 - [ :pencil: サンプル実装](technical/sample.md)
 - [ :bulb: Tips](technical/tips.md)
-- [ :information_desk_person: サポート](technical/support)
+- [ :information_desk_person: サポート](technical/support.md)
 - [ :cloud: 技術情報](technical/techinfo.md)
 - [ :pencil2: ラーニング](technical/learning.md)
+-  :orange_book: チートシート
+    - [Designer](technical/cheatsheet/designer.md)
+
 
 #### Business
 
@@ -44,7 +47,7 @@
 
 #### History
 
-- April 1st, 2021  : **$\beta$ Version Released**
+- April version 1.0, 2021  : **$\beta$ Version Released**
 
 
 
