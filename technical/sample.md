@@ -41,7 +41,7 @@
 ||行動認識、人数カウンティング、トラッキング| [Computer Vision Receips](https://github.com/microsoft/computervision-recipes)|
 |Personalize        |商品のレコメンデーション|[Azure Synapse Solution Accelerator Retail Recommender](https://github.com/microsoft/Azure-Synapse-Retail-Recommender-Solution-Accelerator)|
 ||協調フィルタリング、コンテンツベースフィルタリング、ハイブリッド| [Microsoft Recommenders](https://github.com/microsoft/computervision-recipes)([日本語訳](https://github.com/c-nova/recommenders)) |
-|Predictive Maintenance     |設備故障 (設備耐用年数) の予測     |[DeepLearning-Workshop](https://github.com/konabuta/DeepLearning-Workshop/blob/ff71b9a630fc1691f10bfba420d76ee0b90fa3de/Sample/Keras/Keras-LSTM-PredictiveMaintenance-datastore-Hyperdrive.ipynb)         |
+|Predictive Maintenance     |設備故障 (設備耐用年数) の予測     | - [DeepLearning-Workshop](https://github.com/konabuta/DeepLearning-Workshop/blob/ff71b9a630fc1691f10bfba420d76ee0b90fa3de/Sample/Keras/Keras-LSTM-PredictiveMaintenance-datastore-Hyperdrive.ipynb) <br> - [Predictive Maintenance for remote field devices hands-on lab step-by-step](https://github.com/microsoft/MCW-Predictive-Maintenance-for-remote-field-devices/blob/master/Hands-on%20lab/HOL%20step-by%20step%20-%20Predictive%20Maintenance%20for%20remote%20field%20devices.md)        |
 |Autonomous System  |ビル空調の運転最適化         |[bonsai-simulink](https://github.com/microsoft/bonsai-simulink/tree/main/samples/building_energy_management)         |
 ||化学プラントにおける製造工程最適化      |[bonsai-simulink](https://github.com/microsoft/bonsai-simulink/tree/main/samples/building_energy_management)         |
 |Churn Analysis     |退職予測とモデル解釈         | [Responsible AI Widgets - Samples](https://github.com/microsoft/responsible-ai-widgets/blob/main/notebooks/interpretability-dashboard-employee-attrition.ipynb)        |
