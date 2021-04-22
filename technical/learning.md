@@ -27,7 +27,7 @@
 
 ## コミュニティ
 
-- [Deep Learning Lab](https://dllab.connpass.com/) - 日本マイクロソフトが幹事で運営している機械学習の社会実装を目指したコミュニティ。過去のイベント資料・動画が閲覧可能です。
+- [Deep Learning Lab](https://dllab.connpass.com/) - 日本マイクロソフトが幹事で運営している機械学習の社会実装を目指したコミュニティ。過去の[イベント資料](https://dllab.connpass.com/presentation/)は是非参照ください。
 
 
 ## その他

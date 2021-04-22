@@ -12,7 +12,8 @@ ws = Workspace.from_config()
 ### Data
 #### Tabular Dataset の作成
 ##### ローカルからのアップロード
-**Upload to datastore**
+**1. Upload to datastore**    
+
 ローカルから `./data` にデータをアップロードをする。
 
 ```python
@@ -20,7 +21,8 @@ datastore = ws.get_default_datastore()
 datastore.upload(src_dir='./data', target_path='<path/on/datastore>', overwrite=True)
 ```
 
-**datastore から dataset を作る**
+**2. datastore から dataset を作る**    
+
 datastore の `<path/o/datastore>` にアップロードされている区切りテキストファイルを利用して dataset を作成する。
 
 ```python
