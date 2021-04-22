@@ -8,7 +8,7 @@
 
 - [Azure ML 2.0 Developer Experience](https://github.com/Azure/azureml-v2-preview) - Azure ML 2.0 API/CLI/SDK (private preview)
 
-- [AutoML for Computer Vision](https://github.com/swatig007/automlForImages) - sample code of automl for computer vision tasks
+- [AutoML for Computer Vision](https://github.com/swatig007/automlForImages) - sample code of automl for computer vision tasks (classification, object detection, instance segmentation)
 
 
 ## Solution Accelerators
