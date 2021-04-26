@@ -18,6 +18,8 @@
 
 - [Demand Forecasting (Many Models) Solution Accelerator](https://github.com/microsoft/solution-accelerator-many-models) ([日本語訳](https://github.com/c-nova/solution-accelerator-many-models)) - 大量のモデル構築・推論の実装テンプレート
 
+- [Databricks Solution Accelerators](https://databricks.com/solutions/accelerators) - Databricks 社が提供するユースケースごとの Solution Accelerators
+
 
 ## Recipes
 - [Computer Vision](https://github.com/microsoft/computervision-recipes) - コンピュータービジョンのサンプル集
