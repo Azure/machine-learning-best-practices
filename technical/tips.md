@@ -41,7 +41,7 @@
         from azureml.core.environment import CondaDependencies
         
         # 環境 Environment の名称
-        env = Environment("datahack-pipeline")
+        env = Environment("pyodbc-env")
 
         # Docker File の定義
         dockerfile = r"""
