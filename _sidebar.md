@@ -7,8 +7,8 @@
     - [ :information_desk_person: サポート](technical/support)
     - [ :cloud: 技術情報](technical/techinfo.md)
     - [ :pencil2: ラーニング](technical/learning.md)
-    - [ :orange_book: cheat sheet](technical/cheatsheet/python-sdk.md)
-        - [Designer](technical/cheatsheet/designer.md)
+    - <a href="https://azure.github.io/azureml-cheatsheets/ja/" target="_blank" >:orange_book: cheat sheet :link: </a>
+        <!-- - [Designer](technical/cheatsheet/designer.md) -->
 
 - Business
 
