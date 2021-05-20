@@ -29,7 +29,68 @@
 
 ## ETL
 
-:runner: _coming soon_
+* **pyodbc を用いた DB とのやり取り**
+    
+    Database に格納されているデータを取得する方法として、Azure ML の Dataset ではなく pyodbc を利用したい場合があります。下記のコードを参考に Azure ML Environment を作成してください。
+    1. Azure ML Environment の作成
+    
+        モデル学習時の環境を定義情報を管理する機能として Environment (環境) があります。pyodbc では通常 OS レベルでのパッケージのインストールが必要なため、python のパッケージを pip や conda でインストールだけでは不十分です。
+
+        ```python
+        from azureml.core import Workspace, Environment
+        from azureml.core.environment import CondaDependencies
+        
+        # 環境 Environment の名称
+        env = Environment("datahack-pipeline")
+
+        # Docker File の定義
+        dockerfile = r"""
+        FROM mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04
+        RUN echo "Hello from custom container!"
+        
+        RUN apt-get update
+        RUN apt-get install locales
+        RUN locale-gen en_US.UTF-8
+        RUN update-locale LANG=en_US.UTF-8
+        
+        # Install MS SQL v13 driver for Odbc
+        RUN apt-get install -y curl
+        RUN apt-get install apt-transport-https
+        RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+        RUN curl https://packages.microsoft.com/config/ubuntu/18.04/prod.list > /etc/apt/sources.list.d/mssql-release.list
+        RUN exit
+        RUN apt-get update
+        RUN ACCEPT_EULA=Y apt-get install -y msodbcsql17
+        RUN apt-get install -y unixodbc-dev
+        """
+        
+        # Set base image to None, because the image is defined by dockerfile.
+        env.docker.base_image = None
+        env.docker.base_dockerfile = dockerfile
+
+        env.python.conda_dependencies = CondaDependencies.create(conda_packages=['scikit-learn','pyodbc'], 
+                                                         pip_packages=['azureml-defaults','azureml-dataprep[pandas]'])
+        ```
+
+    2. Python Script での利用
+        ```python
+        import pandas as pd
+        import pyodbc
+    
+        server = 'tcp:xxxx' 
+        database = 'xxxx' 
+        username = 'xxxx' 
+        password = 'xxxx' 
+        cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
+        cursor = cnxn.cursor()
+        
+        sql = """
+        SELECT * FROM [dbo].[FactTable]
+        """
+        df = pd.read_sql(sql, cnxn)
+        print(df.head())
+        ```
+
 
 ## データ探索
 
