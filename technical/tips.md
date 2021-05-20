@@ -31,10 +31,12 @@
 
 * **pyodbc を用いた DB とのやり取り**
     
-    Database に格納されているデータを取得する方法として、Azure ML の Dataset ではなく pyodbc を利用したい場合があります。下記のコードを参考に Azure ML Environment を作成してください。
-    1. Azure ML Environment の作成
+    Database に格納されているデータを取得する方法として、Azure ML の Dataset ではなく pyodbc を利用したい場合があります。モデル学習時の環境を定義情報を管理する機能として Environment (環境) があります。pyodbc では通常 OS レベルでのパッケージのインストールが必要なため、python のパッケージを pip や conda でインストールだけでは不十分です。下記のコードを参考に Azure ML Environment を作成してください。
+
     
-        モデル学習時の環境を定義情報を管理する機能として Environment (環境) があります。pyodbc では通常 OS レベルでのパッケージのインストールが必要なため、python のパッケージを pip や conda でインストールだけでは不十分です。
+    
+    <details>
+    <summary>1. Azure ML Environment の定義 (Python)</summary>
 
         ```python
         from azureml.core import Workspace, Environment
@@ -71,8 +73,10 @@
         env.python.conda_dependencies = CondaDependencies.create(conda_packages=['scikit-learn','pyodbc'], 
                                                          pip_packages=['azureml-defaults','azureml-dataprep[pandas]'])
         ```
+    </details>
+    <details><summary>2. Python Script での利用 (Python)</summary>
+    
 
-    2. Python Script での利用
         ```python
         import pandas as pd
         import pyodbc
@@ -91,7 +95,13 @@
         print(df.head())
         ```
 
+    </details>
+    <br>
 
+    参考情報
+    - [Azure Machine Learning でソフトウェア環境を作成して使用する](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-use-environments)
+    - [Microsoft ODBC Driver for SQL Server をインストールする (Linux)](https://docs.microsoft.com/ja-jp/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=azure-sqldw-latest#ubuntu17)
+ 
 ## データ探索
 
 :runner: _coming soon_
