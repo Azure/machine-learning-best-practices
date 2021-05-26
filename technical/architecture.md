@@ -29,6 +29,12 @@ Azure Kubernetes Services (AKS) 利用時の構成です。<br>
 
 <br><br>
 
+## 環境セットアップ手順
+
+Private Endpoint / Private Link を利用した環境構築の手順ガイド
+- [Welcome to step-by-step guide to provision secure workspace](https://github.com/jhirono/amlsecurity)
+
+<br>
 
 ## Data Ingestion Pattern
 
