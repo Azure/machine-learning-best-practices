@@ -41,6 +41,6 @@ Private Endpoint / Private Link を利用した環境構築の手順ガイド
 :construction:	under construction !
 
 **参考ドキュメント**
-- [Azure Data Factro を使用したデータインジェスト](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-data-ingest-adf)
+- [Azure Data Factory を使用したデータインジェスト](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-data-ingest-adf)
 - [Azure Synapse を使用したデータ準備](https://docs.microsoft.com/ja-jp/azure/machine-learning/how-to-data-prep-synapse-spark-pool)
 - [データインジェクトパイプラインの DevOps](https://docs.microsoft.com/ja-JP/azure/machine-learning/how-to-cicd-data-ingestion)
