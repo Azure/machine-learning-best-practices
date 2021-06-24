@@ -34,6 +34,8 @@ Azure Kubernetes Services (AKS) 利用時の構成です。<br>
 Private Endpoint / Private Link を利用した環境構築の手順ガイド
 - [Welcome to step-by-step guide to provision secure workspace](https://github.com/jhirono/amlsecurity)
 
+Terraform を用いた環境構築テンプレート
+- [Terraform examples for provisioning Azure Machine Learning](https://github.com/microsoft/azureml-terraform-examples)
 <br>
 
 ## Data Ingestion Pattern
