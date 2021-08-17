@@ -83,6 +83,10 @@
 
 - [Responsible AI Workshop](https://github.com/konabuta/responsible-ai) - モデル解釈・説明性のテクノジーについてのワークショップコンテンツ。`Explainable Boosting Machine` と `SHAP` の実装。
 
+- [Azure Machine Learning Workshop 2021](https://github.com/konabuta/azureml-workshop-2021) - Azure Machine Learning 4 days ワークショップ
+
+- [ONNX Runtime for model training](https://github.com/microsoft/onnxruntime-training-examples) - ONNX Runtime を用いた Transformer モデル学習の高速化サンプル
+
 
 <br>
 
