@@ -24,6 +24,13 @@
 
 - [Databricks Solution Accelerators](https://databricks.com/solutions/accelerators) - Databricks 社が提供するユースケースごとの Solution Accelerators
 
+- [Purview Machine Learning Lineage Solution Accelerator](https://github.com/microsoft/Purview-Machine-Learning-Lineage-Solution-Accelerator) - Purview による Azure Machine Learning Lineage 
+
+- [Commodity Price Prediction Solution Accelerator](https://github.com/microsoft/Azure-Synapse-Solution-Accelerator-Commodity-Price-Prediction) - 商品価格予測 の Solution Accelerator
+
+- [Content Recommendations Solution Accelerator](https://github.com/microsoft/Azure-Synapse-Content-Recommendations-Solution-Accelerator) - コンテンツ推薦システムの Solution Accelerator
+
+- [Customer Complaint Management Solution Accelerator](https://github.com/microsoft/Azure-Solution-Accelerator-Customer-Complaint-Management) - 顧客クレーム管理システムの Solution Accelerator
 
 ## Recipes
 - [Computer Vision](https://github.com/microsoft/computervision-recipes) - コンピュータービジョンのサンプル集
