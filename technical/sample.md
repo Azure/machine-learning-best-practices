@@ -8,7 +8,11 @@
 
 - [Azure ML 2.0 Developer Experience](https://github.com/Azure/azureml-v2-preview) - Azure ML 2.0 API/CLI/SDK (private preview)
 
-- [AutoML for Computer Vision](https://github.com/swatig007/automlForImages) - sample code of automl for computer vision tasks (classification, object detection, instance segmentation)
+- [AutoML for Image](https://github.com/swatig007/automlForImages) - sample code of automl for computer vision tasks (classification, object detection, instance segmentation)
+
+## Tool
+
+- [Feast on Azure](https://github.com/Azure/feast-azure) - Azure plugins for Feast (FEAture STore)
 
 
 ## Solution Accelerators
@@ -53,7 +57,7 @@
 ||年収予測モデルの開発と公平性の評価と軽減| [Responsible AI Widgets - Samples](https://github.com/microsoft/responsible-ai-widgets/blob/main/notebooks/fairness-dashboard-loan-allocation.ipynb)|
 ||後方互換性を考慮した年収予測モデルの開発|[Backward Compatibility ML - Samples](https://github.com/microsoft/BackwardCompatibilityML/blob/dev/examples/compatibility-analysis-adult.ipynb)|
 ||患者のガン診断モデルと影響した変数の抽出|[InterpretML - Samples](https://github.com/interpretml/interpret-community/blob/master/notebooks/explain-binary-classification-local.ipynb)|
-|Text Analytics     |Livedoor ニュース記事の分類|[AzureML-NLP (日本語)](https://github.com/konabuta/AzureML-NLP)         |
+|Text Analytics     |Livedoor ニュース記事の分類|[NLP Samples (日本語)](https://github.com/Azure/nlp-samples)         |
 |Credit Analytics   |住宅ローンの与信モデル構築と反実仮想サンプルの生成 | :runner: under construction ([DiCE](https://github.com/interpretml/DiCE)をベースに作成中)         |
 |Demand Forecasting |時系列予測 (統計手法、機械学習、深層学習)|[Forecasting Best Practices](https://github.com/microsoft/forecasting)|
 ||各商品ブランドの店舗ごとの大量モデル開発と推論| [Many Models Solution Accelerator](https://github.com/microsoft/solution-accelerator-many-models)|
