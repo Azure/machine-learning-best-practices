@@ -21,7 +21,7 @@
     Azure ML で用いる計算リソースはなるべく低コストで運用します。
     - クォータの設定 - Workspace 単位で各 VM タイプごとで利用できるコア数を制限することができます。手順は「[ワークスペースレベルのクォータ](https://docs.microsoft.com/ja-JP/azure/machine-learning/how-to-manage-quotas#workspace-level-quotas)」をご参照ください。
     - Compute Cluster は、`最小ノード数`を 0 にすることで Job が実行されていないときの課金コストを抑えることができます。また`低優先度`オプションを利用するとコストを 80 % 削減できます。
-    - Compute Instances には 2021年2月現時点では自動シャットダウンの機能がありません。手動、もしくは Python SDK ([ComputeInstance Class](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.compute.computeinstance.computeinstance?view=azure-ml-py))、Azure CLI ([computeinstance stop](https://docs.microsoft.com/en-us/cli/azure/ext/azure-cli-ml/ml/computetarget/computeinstance?view=azure-cli-latest#ext_azure_cli_ml_az_ml_computetarget_computeinstance_stop)) を用いて停止スクリプトを作成してください。
+    - Compute Instance の自動開始と停止の機能がプレビューで発表されました。詳細は [自動開始と停止をスケジュール設定する (プレビュー)](https://docs.microsoft.com/ja-JP/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python#schedule-automatic-start-and-stop-preview) をご参照ください。
     - その他、詳細は 「[Azure Machine Learning のコストを計画して管理する](https://docs.microsoft.com/ja-jp/azure/machine-learning/concept-plan-manage-cost)」 をご参照ください。
     - なお、Azure Machine Learning 全体の正確なコスト計算は現在価格表では行えません。例えば Compute Instances で確保されているディスクやロードバランサーなどのコストを加味する必要があります。「[Azure Machine Learning のコスト見積もりについて](https://jpmlblog.github.io/blog/2020/06/18/AML-estimate-costs/)」をご参照ください。
 
@@ -152,6 +152,7 @@
     - 対処方法 : `.amlignore`で不要なファイルを指定する
         - 参考ブログ : [Azure Machine Learning に組み込まれた BERT x AutoML で テキスト分類 - Tips](https://qiita.com/dahatake/items/13ec1e277078bc608f3b#1-%E5%AE%9F%E9%A8%93%E3%82%B9%E3%83%8A%E3%83%83%E3%83%97%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%81%AE%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E5%88%B6%E9%99%90)
     - その他の対処方法は「[実験スナップショットのストレージ制限](https://docs.microsoft.com/ja-JP/azure/machine-learning/how-to-save-write-experiment-files#storage-limits-of-experiment-snapshots)」を参照
+
 
 
 ## 推論
