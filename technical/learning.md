@@ -23,6 +23,10 @@
 
 - [Udacity : Become a Machine Learning Engineer for Microsoft Azure](https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333) - Azure Machine Learning の Nanodegree Program
 
+- [Coursera - Microsoft](https://www.coursera.org/instructor/microsoft)
+    - [Azure Machine Learning](https://www.coursera.org/learn/microsoft-azure-machine-learning)
+    - [Artificial Intelligence on Microsoft Azure](https://www.coursera.org/learn/artificial-intelligence-microsoft-azure)
+    - [Modern Data Warehouse Analytics in Microsoft Azure](https://www.coursera.org/learn/data-warehouse-analytics-microsoft-azure)
 
 
 ## コミュニティ

@@ -1,10 +1,15 @@
 # :cloud: 技術情報
-## ドキュメント
-* [Microsoft Docs の網羅検索](https://docs.microsoft.com/ja-jp/search/)
-    
+
+## サイト
 * Azure Machine Learning
     - [ホームページ](https://azure.microsoft.com/ja-jp/services/machine-learning/ )
     - [製品ドキュメント](https://docs.microsoft.com/ja-JP/azure/machine-learning/)
+- [Machine learning for data scientists](https://azure.microsoft.com/en-us/overview/ai-platform/data-scientist-resources/#overview) - Data Scientist 向けのポータルサイト
+- [Artificial intelligence for developers](https://azure.microsoft.com/en-us/overview/ai-platform/dev-resources/) - Developer 向けのポータルサイト
+
+
+## ドキュメント
+* [Microsoft Docs の網羅検索](https://docs.microsoft.com/ja-jp/search/)
 
 
 ## ブログ

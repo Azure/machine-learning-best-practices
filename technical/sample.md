@@ -8,7 +8,11 @@
 
 - [Azure ML 2.0 Developer Experience](https://github.com/Azure/azureml-v2-preview) - Azure ML 2.0 API/CLI/SDK (private preview)
 
-- [AutoML for Computer Vision](https://github.com/swatig007/automlForImages) - sample code of automl for computer vision tasks (classification, object detection, instance segmentation)
+- [AutoML for Image](https://github.com/swatig007/automlForImages) - sample code of automl for computer vision tasks (classification, object detection, instance segmentation)
+
+## Tool
+
+- [Feast on Azure](https://github.com/Azure/feast-azure) - Azure plugins for Feast (FEAture STore)
 
 
 ## Solution Accelerators
@@ -20,6 +24,13 @@
 
 - [Databricks Solution Accelerators](https://databricks.com/solutions/accelerators) - Databricks 社が提供するユースケースごとの Solution Accelerators
 
+- [Purview Machine Learning Lineage Solution Accelerator](https://github.com/microsoft/Purview-Machine-Learning-Lineage-Solution-Accelerator) - Purview による Azure Machine Learning Lineage 
+
+- [Commodity Price Prediction Solution Accelerator](https://github.com/microsoft/Azure-Synapse-Solution-Accelerator-Commodity-Price-Prediction) - 商品価格予測 の Solution Accelerator
+
+- [Content Recommendations Solution Accelerator](https://github.com/microsoft/Azure-Synapse-Content-Recommendations-Solution-Accelerator) - コンテンツ推薦システムの Solution Accelerator
+
+- [Customer Complaint Management Solution Accelerator](https://github.com/microsoft/Azure-Solution-Accelerator-Customer-Complaint-Management) - 顧客クレーム管理システムの Solution Accelerator
 
 ## Recipes
 - [Computer Vision](https://github.com/microsoft/computervision-recipes) - コンピュータービジョンのサンプル集
@@ -53,7 +64,7 @@
 ||年収予測モデルの開発と公平性の評価と軽減| [Responsible AI Widgets - Samples](https://github.com/microsoft/responsible-ai-widgets/blob/main/notebooks/fairness-dashboard-loan-allocation.ipynb)|
 ||後方互換性を考慮した年収予測モデルの開発|[Backward Compatibility ML - Samples](https://github.com/microsoft/BackwardCompatibilityML/blob/dev/examples/compatibility-analysis-adult.ipynb)|
 ||患者のガン診断モデルと影響した変数の抽出|[InterpretML - Samples](https://github.com/interpretml/interpret-community/blob/master/notebooks/explain-binary-classification-local.ipynb)|
-|Text Analytics     |Livedoor ニュース記事の分類|[AzureML-NLP (日本語)](https://github.com/konabuta/AzureML-NLP)         |
+|Text Analytics     |Livedoor ニュース記事の分類|[NLP Samples (日本語)](https://github.com/Azure/nlp-samples)         |
 |Credit Analytics   |住宅ローンの与信モデル構築と反実仮想サンプルの生成 | :runner: under construction ([DiCE](https://github.com/interpretml/DiCE)をベースに作成中)         |
 |Demand Forecasting |時系列予測 (統計手法、機械学習、深層学習)|[Forecasting Best Practices](https://github.com/microsoft/forecasting)|
 ||各商品ブランドの店舗ごとの大量モデル開発と推論| [Many Models Solution Accelerator](https://github.com/microsoft/solution-accelerator-many-models)|
@@ -82,6 +93,10 @@
 - [PyTorch Lightning on Azure Machine Learning](https://github.com/ShuntaIto/azureml-pl-sample) - `PyTorch Lightning` を用いたモデル学習と推論のサンプルコード。`日本語 BERT` の分散学習の実装など。
 
 - [Responsible AI Workshop](https://github.com/konabuta/responsible-ai) - モデル解釈・説明性のテクノジーについてのワークショップコンテンツ。`Explainable Boosting Machine` と `SHAP` の実装。
+
+- [Azure Machine Learning Workshop 2021](https://github.com/konabuta/azureml-workshop-2021) - Azure Machine Learning 4 days ワークショップ
+
+- [ONNX Runtime for model training](https://github.com/microsoft/onnxruntime-training-examples) - ONNX Runtime を用いた Transformer モデル学習の高速化サンプル
 
 
 <br>

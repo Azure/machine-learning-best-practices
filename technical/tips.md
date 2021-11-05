@@ -105,6 +105,16 @@ print(df.head())
 
 
 
+* 重複行データを取り除く方法
+    
+    Azure Synapse Pipeline (Azure Data Factory) の Data Flow で簡単に除外すること可能です。
+    - 参考 : [Azure Data Factory - Data Flowで重複行を取り除く (最初の行だけ選択する)方法メモ](https://zenn.dev/shohei_aio/articles/5c9716ac817b79)
+
+* Excel ファイル の各シートごとの処理の実行方法
+    Azure Functions を用いてシート一覧を取得し、Azure Synapse Pipeline (Azure Data Factory) の DataFlow にて繰り返し処理することができます。
+    - 参考 : [Excelのシート一覧をFunctionsで出力しForEach&DataFlowで加工する @Azure Synapse Pipeline](https://zenn.dev/shohei_aio/articles/a155ddfc8c9cab)
+
+
 ## データ探索
 
 :runner: _coming soon_
